@@ -1,0 +1,63 @@
+body 
+{
+    margin: 0;
+    
+}
+
+header 
+{
+    color: white;
+    background-color: #004175;
+    border-bottom: .25rem solid;
+    padding:2rem;
+    border-color: #89DEEF;
+    font-family: "open sans";
+    font-size:xx-large;       
+}  
+
+p 
+{
+    margin-left: 2rem;
+}
+
+h2 
+{
+    color:black
+    background-color: white;
+    font-family: "oswald";
+    font-size: 25px;
+    margin: 2rem;
+}
+
+
+
+
+
+.dogpics+
+{
+ display:inline-block;
+ flex-direction: row;
+ }
+
+
+.doginfo> li
+{ 
+    background-color: #89DEEF;
+    display:inline-block;    
+    border-radius: 1em;
+    flex-wrap: wrap;
+}
+
+.container> 
+{
+    display: inline-block;
+    grid-template-rows: 33%;
+
+}
+
+.footer> li
+{
+    display: inline-block
+    
+    
+}
